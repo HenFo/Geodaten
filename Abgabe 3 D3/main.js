@@ -90,7 +90,7 @@
  		return d;
  	});
 
- d3.json("shapefile_m_nster_stadtteile.json")
+ d3.json("https://raw.githubusercontent.com/HenFo/Geodaten/master/Abgabe%203%20D3/shapefile_m_nster_stadtteile.json")
  	.then(
  		function (dataset) {
 
